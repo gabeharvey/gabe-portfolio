@@ -66,7 +66,7 @@ section {
 
 #beta {
     display: flex;
-    background-color: darkred;
+    background-color: teal;
     margin: 20px;
     border: solid azure;
     box-shadow: 10px 10px 20px azure;
@@ -80,7 +80,7 @@ section {
 
 #charlie {
     display: flex;
-    background-color: darkgray;
+    background-color: teal;
     margin: 20px;
     border: solid azure;
     box-shadow: 10px 10px 20px azure;
@@ -90,6 +90,10 @@ section {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: small;
     padding: 5px;
+}
+
+#charlie a {
+    background-color: teal;
 }
 
 footer {
