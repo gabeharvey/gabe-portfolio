@@ -29,6 +29,10 @@ li {
     max-width: 300px;
 }
 
+li a {
+    background-color: rgb(41, 41, 41);
+}
+
 h1 img {
     max-width: 400px;
     max-height: 400px;
@@ -55,6 +59,7 @@ section {
     height: 100px;
     transform: rotate(3deg);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
     padding: 5px;
 }
 
@@ -68,6 +73,7 @@ section {
     text-align: center;
     transform: rotate(3deg);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
     padding: 5px;
 }
 
@@ -81,6 +87,7 @@ section {
     text-align: center;
     transform: rotate(3deg);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
     padding: 5px;
 }
 
@@ -89,10 +96,18 @@ footer {
     background-color: rgb(41, 41, 41);
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
+    text-align: center;
     text-shadow: 5px 5px 10px azure;
     min-width: 700px;
     min-height: 50px;
     border: solid azure;
     margin-top: 1%;
 }
+
+@media screen and (max-width: 768px) {
+    header {background-color: teal;}
+    nav {background-color: teal;}
+    li {background-color: teal;}
+    li a {background-color: teal;}
+    footer {background-color: teal;}
+    section {flex-direction: column;}
