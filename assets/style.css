@@ -1,8 +1,10 @@
+/*background of entire website*/
 * {
     color: azure;
     background-color: black;
 }
 
+/*background and text properties of top header section of website*/
 header {
     color: azure;
     background-color: rgb(41, 41, 41);
@@ -15,12 +17,14 @@ header {
     border: solid azure;
 }
 
+/*styling of top navigation bar and links*/
 nav {
     background-color: rgb(41, 41, 41);
     float: right;
     margin-right: 30px;
 }
 
+/*styling of text and background color of top navigation bar*/
 li {
     display: inline-block;
     color: azure;
@@ -29,10 +33,12 @@ li {
     max-width: 300px;
 }
 
+/*background color of top navigation bar links*/
 li a {
     background-color: rgb(41, 41, 41);
 }
 
+/*sizing properties, position, and style of primary image*/
 h1 img {
     max-width: 400px;
     max-height: 400px;
@@ -43,6 +49,7 @@ h1 img {
     transform: rotate(3deg);
 }
 
+/*positioning and styling properties of primary box of website*/
 section {
     display: flex;
     justify-content: space-evenly;
@@ -51,6 +58,7 @@ section {
     min-width: 700px;
 }
 
+/*positioning, styling and text properties of top box inside primary section*/
 #alpha {
     display: flex;
     background-color: teal;
@@ -64,6 +72,7 @@ section {
     padding: 5px;
 }
 
+/*positioning, styling and text properties of middle box inside primary section*/
 #beta {
     display: flex;
     background-color: teal;
@@ -78,6 +87,7 @@ section {
     padding: 5px;
 }
 
+/*positioning, styling, and text properties of bottom box inside primary section*/
 #charlie {
     display: flex;
     background-color: teal;
@@ -92,10 +102,12 @@ section {
     padding: 5px;
 }
 
-#charlie a {
+/*background color of email link inside middle box*/
+#beta a {
     background-color: teal;
 }
 
+/*positioning and styling of secondary section in website*/
 .section2 {
     display: flex;
     justify-content: space-around;
@@ -105,16 +117,19 @@ section {
     min-height: 150px;
 }
 
+/*styling of first image in secondary section of website*/
 .delta {
     box-shadow: 10px 10px 20px azure;
     transform: rotate(3deg);
 }
 
+/*styling of second image in secondary section of website*/
 .echo {
     box-shadow: 10px 10px 20px azure;
     transform: rotate(3deg);
 }
 
+/*styling and properties of footer section of website*/
 footer {
     color: azure;
     background-color: rgb(41, 41, 41);
@@ -128,6 +143,7 @@ footer {
     margin-top: 1%;
 }
 
+/*display adjustments as website encounters mobile devices*/
 @media screen and (max-width: 425px) {
     header {background-color: teal;}
     nav {background-color: teal;}
