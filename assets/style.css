@@ -30,7 +30,7 @@ li {
     color: azure;
     background-color: rgb(41, 41, 41);
     font-size: medium;
-    max-width: 300px;
+    max-width: 310px;
 }
 
 /*background color of top navigation bar links*/
@@ -118,15 +118,39 @@ section {
 }
 
 /*styling of first image in secondary section of website*/
-.delta {
+#delta {
+    background-color: black;
+}
+
+/*additional styling of first image in secondary section of website*/
+#delta img {
     box-shadow: 10px 10px 20px azure;
     transform: rotate(3deg);
 }
 
+/*label describing first application*/
+#delta::before {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 10px azure;
+    content: "HORISEON"
+}
+
 /*styling of second image in secondary section of website*/
-.echo {
+#echo {
+    background-color: black;
+}
+
+/*additional styling of second application image in secondary section of website*/
+#echo img {
     box-shadow: 10px 10px 20px azure;
     transform: rotate(3deg);
+}
+
+/*label describing second application*/
+#echo::before {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 10px azure;
+    content: "GitHub";
 }
 
 /*styling and properties of footer section of website*/
