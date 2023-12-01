@@ -96,6 +96,25 @@ section {
     background-color: teal;
 }
 
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    border: solid azure;
+    min-width: 700px;
+    min-height: 150px;
+}
+
+.delta {
+    box-shadow: 10px 10px 20px azure;
+    transform: rotate(3deg);
+}
+
+.echo {
+    box-shadow: 10px 10px 20px azure;
+    transform: rotate(3deg);
+}
+
 footer {
     color: azure;
     background-color: rgb(41, 41, 41);
